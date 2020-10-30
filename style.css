@@ -1,0 +1,259 @@
+body {
+  background: #ddd;
+  /*background-image: url(images/bg-lightl-904.jpg);*/
+  background-image: url(images/bg-light-4869.png);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karusel";
+}
+
+/*Стартовый блок*/
+.startBlock{
+  background-image: url(images/sea.jpg);
+  width: 900px;
+  height: 610px;
+  margin: 20px auto;
+  background-size: cover;
+  position: relative;
+}
+
+#start-knopka {
+  display: block;
+  padding: 40px 80px;
+  font-size: 40px;
+  border-radius: 30px 30px;
+  /*background-image: linear-gradient(to top, #e9571b, #f47d00, #f9a100, #f8c500, #f1e912);*/
+  background-image: linear-gradient(to top, #e9571b, #f1e912);
+  position: absolute;
+  left:310px;
+  top:250px;
+  font-family: "Karusel";
+  cursor: pointer;
+}
+
+#start-knopka:hover{
+box-shadow: 0 0 6px 6px #fff; 
+}
+
+#start-knopka:active{
+outline: none; 
+}
+
+#start-text{
+  width: 500px;
+  text-align: center;
+  font-size: 40px;
+  left:210px;
+  top:100px;
+  position: absolute;
+}
+
+/*Финишный блок - повтори таблицу умножения */
+.endBlockBad{
+  background-image: url(images/tab.png);
+  width: 900px;
+  height: 610px;
+  margin: 20px auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#endBlockBad-button {
+  display: block;
+  padding: 3px 30px;
+  font-size: 40px;
+  border-radius: 20px 20px;
+  background-image: linear-gradient(to top, #e9571b, #f1e912); 
+  position: absolute;
+  left:205px;
+  top:498px;
+  font-family: "Karusel";
+  cursor: pointer;
+}
+
+#endBlockBad-button:hover{
+box-shadow: 0 0 6px 6px #fff; 
+}
+
+#endBlockBad-button:active{
+outline: none; 
+}
+
+#endBlockBad-text{
+  width: 700px;
+  text-align: center;
+  font-size: 40px;
+  left:90px;
+  top:10px;
+  position: relative;
+  display: block;
+}
+
+/*Финишный блок - МОЛОДЕЦ */
+.endBlockGood{
+  background-image: url(images/salut.jpg);
+  width: 900px;
+  height: 610px;
+  margin: 20px auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#endBlockGood-text{
+  width: 700px;
+  text-align: center;
+  font-size: 110px;
+  left:100px;
+  top:230px;
+  position: absolute;
+  display: block;
+  color:white;
+}
+
+
+/*Игоровое поле*/
+.field {
+  background-image: url(images/sea.jpg);
+  width: 900px;
+  height: 610px;
+  margin: 20px auto;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.head {
+  height: 60px;
+  position: relative;
+}
+
+.timerBlock{
+  position: absolute;
+  top: 15px;
+  left: 5px;
+  float:left;
+  width: 150px;
+  height: 50px;
+  font-size: 35px;
+  color: #3c2565;
+}
+
+#timer{
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 140px;
+}
+
+.starsBlock{
+  position: absolute;
+  top:10px;
+  right: 5px;
+  height: 50px;
+}
+
+.starsBlock span,
+.starsBlock span img{
+  height: 50px;
+  width: 50px;
+  float: right;
+}
+
+/*============================================
+  стили лифта и шариков
+=============================================*/
+#lift {
+  height: 300px;
+  width: 900px;
+  position: absolute;
+  top: 610px;
+}
+
+.ball {
+  height: 80px;
+  width: 80px;
+  background-image: url(images/bubble.png);
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid lightblue;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+}
+
+.ball span {
+  display: inline-block;
+  font-size: 50px;
+  color: #00f;
+  text-shadow:
+    -1px -1px 3px #fff,  
+     1px -1px 3px #fff,
+    -1px 1px  3px #fff,
+     1px 1px  3px #fff;
+  margin-top: 10px;
+}
+/*-------------------------------------*/
+
+/*========================================
+  стили для рыбок
+==========================================*/
+.fish {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  position: absolute;
+  top: 650px;
+}
+
+#fish1 {
+  background-image: url(images/fish1.png);
+}
+
+#fish2 {
+  background-image: url(images/fish2.png);
+}
+
+#fish3 {
+  background-image: url(images/fish3.png);
+  height: 120px;
+}
+
+#fish4 {
+  background-image: url(images/fish4.png);
+}
+
+#fish5 {
+  background-image: url(images/fish5.png);
+}
+
+/* краб */
+#crab {
+  background-image: url(images/crab1.png);
+  width: 170px;
+  height: 230px;
+  background-size: cover;
+  position: absolute;
+  top: 380px;
+  left: 400px;
+}
+
+#crab-text {
+  font-size: 48px;
+  width: 120px;
+  height: 50px;
+  position: relative;
+  margin: 22px 49px;
+}
+
+
+
+
+@font-face {
+    font-family: 'Karusel';
+    src: url('fonts/Karusel.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
