@@ -49,7 +49,7 @@ outline: none;
 
 /*Финишный блок - повтори таблицу умножения */
 .endBlockBad{
-  background-image: url(images/table.png);
+  background-image: url(images/table.jpg);
   width: 900px;
   height: 610px;
   margin: 20px auto;
