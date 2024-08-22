@@ -1,6 +1,5 @@
-body {
+﻿body {
   background: #ddd;
-  /*background-image: url(images/bg-lightl-904.jpg);*/
   background-image: url(images/bg-light-4869.png);
   margin: 0;
   padding: 0;
@@ -23,7 +22,6 @@ body {
   padding: 40px 80px;
   font-size: 40px;
   border-radius: 30px 30px;
-  /*background-image: linear-gradient(to top, #e9571b, #f47d00, #f9a100, #f8c500, #f1e912);*/
   background-image: linear-gradient(to top, #e9571b, #f1e912);
   position: absolute;
   left:310px;
@@ -51,7 +49,7 @@ outline: none;
 
 /*Финишный блок - повтори таблицу умножения */
 .endBlockBad{
-  background-image: url(images/tab.png);
+  background-image: url(images/table.png);
   width: 900px;
   height: 610px;
   margin: 20px auto;
